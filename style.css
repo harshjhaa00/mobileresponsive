@@ -1,0 +1,44 @@
+/* *{ */
+    /* background-color: antiquewhite;
+    1 */
+/* } */
+.main{
+    display: grid;
+    grid-template-rows: repeat(3,0.4fr 2fr 0.4fr);
+}
+.box{
+border: 2px solid black;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; height: auto;
+    display: grid;
+    gap: 40px;
+}
+.box1{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;height: auto;
+}
+.chai{
+    margin: 10px;
+}
+.now{
+    /* margin-top: 0px; */
+    margin: 10px;
+}
+.watch{
+    margin: 14px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgb(154, 195, 154);
+    color: white;
+}
+.media{
+    width: 100%;
+}
+.zero{
+    margin-top: 15px;
+}
